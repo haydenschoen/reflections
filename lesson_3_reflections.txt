@@ -37,4 +37,5 @@ without git I would share files by email or cloud and would need to talk to peop
 this could be good for using less technology and would maybe be a bit simpler
 but the tracking would be missing and it would very quickly get too complicated with more than two people
 
-
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+creating a new brnach allow syou to make more drastic changes and allow other people to check them out before they are merged into the main code that should be bug free

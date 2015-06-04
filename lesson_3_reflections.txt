@@ -1,0 +1,12 @@
+lesson 3 reflections
+
+git remote
+display connected remote repository
+
+git remote add <name of remote> <URL of remote repo>
+create a new remote that is links to a github repo
+
+git push <name of remote> <name of branch>
+push a branch up to github remote repo 
+
+git pull

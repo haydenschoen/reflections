@@ -9,4 +9,32 @@ create a new remote that is links to a github repo
 git push <name of remote> <name of branch>
 push a branch up to github remote repo 
 
-git pull
+git pull <name of remote> <name of branch>
+pull a remote's content's down to a specified branch
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Other people may be working on files and contributing to the remote repo, 
+if they change something that would create a bug for you it will disrupt your flow
+waiting, allows you to deal with conflicts when you are ready
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+a fork happens on Github so that you can clone another person's or your own code without losing reference to the original
+A clone happens either purely locally or by cloning a branch from github to your local machine
+A branch happens both locally and on git by splitting off of one branch
+
+git fetch <remote>
+pull remote changes into the origin branch, used to compare local changes and merge them
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can compare you local files to the remote files and resolve conflicts
+
+if you want to add something to an existing github repo
+first create a local branch so you aren't affecting the master branch
+commit the change and 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+without git I would share files by email or cloud and would need to talk to people to make sure we were using the latest.
+this could be good for using less technology and would maybe be a bit simpler
+but the tracking would be missing and it would very quickly get too complicated with more than two people
+
+

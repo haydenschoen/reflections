@@ -1,0 +1,17 @@
+by using diff I was able to easily see where a change was made
+and what was changed
+By having each line next to each other I could very quickly compare the two
+it is awesome
+
+Having version history would allow me as a programmer
+to look back on all of my attempted code
+it would allow me to test things out, discard if they don't work
+but still have them saved
+Or if I am working on something and make some changes
+which break my program, I can go back to determine 
+what changed since it was working. 
+I could then revise the code to incorporate the older functional code
+
+to compare two documents:
+$ git diff <commit id 1> <commit id 2>
+

@@ -1,0 +1,34 @@
+What happens when you initialize a repository? Why do you need to do it?
+it creates a hidden folder that stores the history of all the repository
+
+git diff
+compare working directory to staging area
+
+git diff --staged
+compare staging area to last commit
+
+git reset --hard
+discards unstaged changes
+
+How can you use the staging area to make sure you have one commit per logical change?
+by using git diff you can see exactly what has changed to make sure you aren't commiting too much all at once
+
+git branch
+shows list of branches
+
+git branch <name of branch>
+creates new branch
+
+git checkout <name of branch>
+makes that branch the live branch that will receive any commited changes
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches help to let you make drastic changes that fork the code and let you maintain the main master branch
+
+git log --graph --oneline <branch name> <branch name>
+see branch history
+
+git checkout -b <new_branch_name>
+when in an unreachable commit, you can run this command and simultaneously create a new branch and check it out
